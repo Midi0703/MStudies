@@ -1,8 +1,6 @@
-const heroi = [
-  {nome: "Einar", xp:10000},
-];
-
+const heroi = [{nome: "Einar", xp:10000}];
 let nivel = "";
+
 if(heroi[0].xp<1001){nivel = "Ferro"}
 else if(heroi[0].xp<2001){nivel = "Bronze"}
 else if(heroi[0].xp<5001){nivel = "Prata"}
